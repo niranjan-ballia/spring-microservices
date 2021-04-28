@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
       enabled: true
-      uri: http://localhost:9296
+      uri: http://cloud-config-server-svc
       
 server:
   port: 9002
