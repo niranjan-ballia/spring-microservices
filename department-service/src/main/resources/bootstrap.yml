@@ -1,6 +1,10 @@
-
 spring:
+  application:
+    name: department-service
   cloud:
     config:
-      enabled: false
+      enabled: true
       uri: http://localhost:9296
+      
+server:
+  port: 8001
