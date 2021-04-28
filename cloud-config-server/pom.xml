@@ -78,7 +78,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>nk95/user-service</repository>
+					<repository>nk95/cloud-config-server</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
